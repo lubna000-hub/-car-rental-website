@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar" lang="ar" dir="rtl">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gold Ride | السيارات</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="myFunctions.js"></script>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="header">
+      <div class="brand">
+        <div class="brand-icon">G</div>
+        <div class="brand-text">
+          <h1>Gold Ride</h1>
+          <p>CAR RENTAL</p>
+        </div>
+      </div>
+      <div class="navigation">
+        <a href="home.html">الرئيسية</a>
+        <a href="AboutUs.html">من نحن</a>
+        <a class="active" href="Cars.html">السيارات</a>
+      </div>
+    </div>
+
+    <div class="content-card">
+      <h2 class="page-title">قائمة السيارات المتوفرة للتأجير</h2>
+      <div class="table-wrap">
+        <table class="data-table" id="carsTable">
+          <thead>
+            <tr>
+              <th>الرمز</th>
+              <th>الصورة</th>
+              <th>الموديل</th>
+              <th>سنة الصنع</th>
+              <th>السعر اليومي</th>
+              <th>إظهار التفاصيل</th>
+              <th>اختيار</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>CR-001</td>
+              <td><img class="car-img" src="car1.jpg" alt="Toyota Corolla" /></td>
+              <td class="model">Toyota Corolla</td>
+              <td>2023</td>
+              <td class="price">250000 ل.س</td>
+              <td><input type="checkbox" class="details-toggle" title="إظهار تفاصيل Toyota Corolla" /></td>
+              <td><input type="checkbox" name="cars" value="CR-001" title="اختيار Toyota Corolla" /></td>
+            </tr>
+            <tr class="details-row">
+              <td colspan="7">
+                نوع الوقود: بنزين | ناقل الحركة: أوتوماتيك | عدد المقاعد: 5 |
+                عداد الكيلومترات: 45000 كم | اللون: أبيض
+              </td>
+            </tr>
+            <tr>
+              <td>CR-002</td>
+              <td><img class="car-img" src="car2.jpg" alt="Kia Sportage" /></td>
+              <td class="model">Kia Sportage</td>
+              <td>2022</td>
+              <td class="price">400000 ل.س</td>
+              <td><input type="checkbox" class="details-toggle" title="إظهار تفاصيل Kia Sportage" /></td>
+              <td><input type="checkbox" name="cars" value="CR-002" title="اختيار Kia Sportage" /></td>
+            </tr>
+            <tr class="details-row">
+              <td colspan="7">
+                نوع الوقود: بنزين | ناقل الحركة: أوتوماتيك | عدد المقاعد: 5 |
+                عداد الكيلومترات: 62000 كم | اللون: أسود
+              </td>
+            </tr>
+            <tr>
+              <td>CR-003</td>
+              <td><img class="car-img" src="car3.jpg" alt="Hyundai Elantra" /></td>
+              <td class="model">Hyundai Elantra</td>
+              <td>2024</td>
+              <td class="price">300000 ل.س</td>
+              <td><input type="checkbox" class="details-toggle" title="إظهار تفاصيل Hyundai Elantra" /></td>
+              <td><input type="checkbox" name="cars" value="CR-003" title="اختيار Hyundai Elantra" /></td>
+            </tr>
+            <tr class="details-row">
+              <td colspan="7">
+                نوع الوقود: بنزين | ناقل الحركة: أوتوماتيك | عدد المقاعد: 5 |
+                عداد الكيلومترات: 18000 كم | اللون: فضي
+              </td>
+            </tr>
+            <tr>
+              <td>CR-004</td>
+              <td><img class="car-img" src="car4.jpg" alt="Chevrolet Spark" /></td>
+              <td class="model">Chevrolet Spark</td>
+              <td>2021</td>
+              <td class="price">180000 ل.س</td>
+              <td><input type="checkbox" class="details-toggle" title="إظهار تفاصيل Chevrolet Spark" /></td>
+              <td><input type="checkbox" name="cars" value="CR-004" title="اختيار Chevrolet Spark" /></td>
+            </tr>
+            <tr class="details-row">
+              <td colspan="7">
+                نوع الوقود: بنزين | ناقل الحركة: يدوي | عدد المقاعد: 4 |
+                عداد الكيلومترات: 90000 كم | اللون: أحمر
+              </td>
+            </tr>
+            <tr>
+              <td>CR-005</td>
+              <td><img class="car-img" src="car5.jpg" alt="BMW 320" /></td>
+              <td class="model">BMW 320</td>
+              <td>2023</td>
+              <td class="price">500000 ل.س</td>
+              <td><input type="checkbox" class="details-toggle" title="إظهار تفاصيل BMW 320" /></td>
+              <td><input type="checkbox" name="cars" value="CR-005" title="اختيار BMW 320" /></td>
+            </tr>
+            <tr class="details-row">
+              <td colspan="7">
+                نوع الوقود: بنزين | ناقل الحركة: أوتوماتيك | عدد المقاعد: 5 |
+                عداد الكيلومترات: 30000 كم | اللون: أزرق
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">حدّد مربع «إظهار التفاصيل» لعرض معلومات السيارة، وألغِ التحديد لإخفائها.</p>
+      <p class="error-msg" id="continueMsg"></p>
+      <p class="center"><input type="button" id="continueBtn" class="btn" value="متابعة" /></p>
+    </div>
+
+    <div id="bookingSection">
+      <form id="bookingForm" action="#" method="post">
+        <fieldset>
+          <legend>نموذج حجز السيارات</legend>
+          <p class="selected-info" id="selectedInfo"></p>
+        <div class="field">
+          <label for="fullName">الاسم الكامل <span class="hint">(أحرف عربية فقط)</span></label>
+          <input type="text" id="fullName" name="fullName" maxlength="60" />
+          <span class="error-msg" id="err-fullName"></span>
+        </div>
+        <div class="field">
+          <label for="nationalId">الرقم الوطني <span class="hint">(11 خانة، إلزامي، أول خانتين 01–14)</span></label>
+          <input type="text" id="nationalId" name="nationalId" maxlength="11" />
+          <span class="error-msg" id="err-nationalId"></span>
+        </div>
+        <div class="field">
+          <label for="startDate">تاريخ بداية التأجير <span class="hint">(yyyy-mm-dd، إلزامي، مثال: 2026-11-20)</span></label>
+          <input type="text" id="startDate" name="startDate" maxlength="10" />
+          <span class="error-msg" id="err-startDate"></span>
+        </div>
+        <div class="field">
+          <label for="endDate">تاريخ نهاية التأجير <span class="hint">(yyyy-mm-dd، إلزامي، لاحق لتاريخ البداية)</span></label>
+          <input type="text" id="endDate" name="endDate" maxlength="10" />
+          <span class="error-msg" id="err-endDate"></span>
+        </div>
+        <div class="field">
+          <label for="mobile">رقم الموبايل <span class="hint">(Syriatel أو MTN، مثال: 0933123456)</span></label>
+          <input type="text" id="mobile" name="mobile" maxlength="14" />
+          <span class="error-msg" id="err-mobile"></span>
+        </div>
+        <div class="field">
+          <label for="email">البريد الإلكتروني <span class="hint">(اختياري)</span></label>
+          <input type="text" id="email" name="email" maxlength="60" />
+          <span class="error-msg" id="err-email"></span>
+        </div>
+          <p class="center"><input type="submit" id="submitBtn" class="btn" value="إرسال" /></p>
+        </fieldset>
+      </form>
+    </div>
+
+    <div id="resultOverlay">
+      <div id="resultBox">
+        <h3>ملخص طلب الحجز</h3>
+        <div id="resultContent"></div>
+        <p class="center"><input type="button" id="closeResult" class="btn" value="إغلاق" /></p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Gold Ride | مشروع تصميم وتطوير تطبيقات الويب</p>
+      <p>جميع الحقوق محفوظة للمجموعة الطلابية © 2026</p>
+    </div>
+  </div>
+</body>
+</html>
